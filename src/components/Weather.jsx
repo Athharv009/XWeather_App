@@ -52,6 +52,7 @@ export default function Weather() {
           required
           className={style.search}
           onChange={handleChange}
+          type='text'
         />
         <button className={style.btn} onClick={handleSearch}>
           Search
