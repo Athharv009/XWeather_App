@@ -60,7 +60,7 @@ export default function Weather() {
       </div>
 
       {/* Loading Message */}
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {/* Weather Cards */}
       {cityData && (
